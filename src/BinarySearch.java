@@ -1,6 +1,7 @@
 public class BinarySearch {
     // Binary search algorithm
     // Worst case time complexity O(logn)
+    // Array should be sorted
     public static int searchB(int[] arr,int target,int n){
         int start = 0;
         int end = n;
